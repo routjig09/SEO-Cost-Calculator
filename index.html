@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Cost Calculator 🚀</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SEO Cost Calculator 💰</h1>
+    <p>Find out how much your SEO will cost! 🧮✨</p>
+  </header>
+
+  <main>
+    <section class="calculator">
+      <h2>Calculate Your SEO Cost 🧑‍💻</h2>
+      <form id="seoForm">
+        <label for="websiteType">Website Type 🌐:</label>
+        <select id="websiteType">
+          <option value="blog">Blog 📝</option>
+          <option value="ecommerce">E-commerce 🛒</option>
+          <option value="corporate">Corporate 🏢</option>
+        </select>
+
+        <label for="numPages">Number of Pages 📄:</label>
+        <input type="number" id="numPages" min="1" value="1">
+
+        <label for="competitionLevel">Competition Level 🥊:</label>
+        <select id="competitionLevel">
+          <option value="low">Low 🟢</option>
+          <option value="medium">Medium 🟡</option>
+          <option value="high">High 🔴</option>
+        </select>
+
+        <button type="button" onclick="calculateCost()">Calculate Cost 🧮</button>
+      </form>
+    </section>
+
+    <section class="result">
+      <h2>Your SEO Cost 💸</h2>
+      <p id="resultText">Enter your details above to see the cost! 👆</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Empowering your digital presence every day!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
